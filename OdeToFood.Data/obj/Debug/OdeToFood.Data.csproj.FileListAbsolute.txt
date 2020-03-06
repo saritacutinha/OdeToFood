@@ -1,0 +1,5 @@
+C:\Users\sarit\Documents\GitHub\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csprojAssemblyReference.cache
+C:\Users\sarit\Documents\GitHub\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll
+C:\Users\sarit\Documents\GitHub\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.pdb
+C:\Users\sarit\Documents\GitHub\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.dll
+C:\Users\sarit\Documents\GitHub\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb
