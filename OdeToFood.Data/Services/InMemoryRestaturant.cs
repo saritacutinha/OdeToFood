@@ -26,10 +26,7 @@ namespace OdeToFood.Data.Services
 
         }
 
-        Restaurant IRestaurantData.Get(int id)
-        {
-            return restaurants.FirstOrDefault(r => r.ID == id);
-        }
+       
 
         public void Add(Restaurant restaurant)
         {
@@ -37,6 +34,22 @@ namespace OdeToFood.Data.Services
             restaurants.Add(restaurant);
             
         }
+
+        public void Update(Restaurant restaurant)
+        {
+            var existing = Get(restaurant.ID);
+            if(existing !=null)
+            {
+                existing.Name = restaurant.Name;
+                existing.CuisineType = restaurant.CuisineType;
+            }
+
+        }
+        public Restaurant Get(int id)
+        {
+            return restaurants.FirstOrDefault(r => r.ID == id);
+        }
+
     }
 }
 
